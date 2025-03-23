@@ -1,0 +1,94 @@
+.post-land-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-land-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input, textarea, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .feature-input {
+    display: flex;
+    gap: 8px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .feature-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 8px 12px;
+    border-radius: 16px;
+    margin: 4px;
+  }
+  
+  .feature-tag span {
+    margin-left: 8px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  

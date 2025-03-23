@@ -1,0 +1,138 @@
+.land-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .back-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .loading, .error-message, .not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .listing-details-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .availability-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .available { background-color: #4CAF50; }
+  .pending { background-color: #FFC107; }
+  .coming_soon { background-color: #FF5722; }
+  
+  .listing-image-placeholder {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .placeholder-text {
+    color: #777;
+    font-size: 1.5rem;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .detail-value {
+    color: #777;
+  }
+  
+  .listing-description, .listing-features, .contact-info {
+    margin-top: 20px;
+  }
+  
+  .feature-tag {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .contact-details {
+    margin-top: 10px;
+  }
+  
+  .contact-item {
+    padding: 5px 0;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .contact-value {
+    color: #777;
+  }
+  
+  .listing-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .owner-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }

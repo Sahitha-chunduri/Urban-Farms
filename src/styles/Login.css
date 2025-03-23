@@ -1,0 +1,208 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../posts/farm-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.login-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 125, 50, 0.6); 
+  z-index: -1; 
+}
+
+.login-box {
+  background: #fff8e1; 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
+  position: relative; 
+  z-index: 2;
+}
+
+.login-box:hover {
+  transform: scale(1.02);
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+  color: #2e7d32; 
+}
+
+.login-box p {
+  color: #5d4037; 
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s;
+  background: #f1f8e9;
+  box-sizing: border-box;
+}
+
+form input:focus {
+  border: 1px solid #2e7d32;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2e7d32;
+}
+
+.social-login-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.google-login {
+  background-color: #db4437;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 48%;
+}
+
+.facebook-login {
+  background-color: #1877f2;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 48%;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.forgot-password {
+  color: #2e7d32;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #1b5e20;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text span {
+  color: #2e7d32;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.signup-text span:hover {
+  text-decoration: underline;
+  color: #1b5e20;
+}
+
+.background-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.or-separator {
+  margin: 15px 0;
+  color: #5d4037;
+  position: relative;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #a5d6a7;
+}
+
+.or-separator::before {
+  left: 0;
+}
+
+.or-separator::after {
+  right: 0;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 600px) {
+  .login-box {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .social-login-buttons {
+    flex-direction: column;
+  }
+
+  .google-login,
+  .facebook-login {
+    width: 100%;
+  }
+}
