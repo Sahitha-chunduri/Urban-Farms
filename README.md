@@ -44,20 +44,6 @@
    
 The application will run on http://localhost:3000.
 
-## 📁 Project Structure
-
-
-Urban-Farms/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Application pages (Marketplace, Feed, etc.)
-│   ├── assets/            # Images, logos, etc.
-│   ├── App.js             # Main app component
-│   ├── index.js           # Entry point
-├── package.json
-├── README.md
 
 ## 🤝 Contributing
 
