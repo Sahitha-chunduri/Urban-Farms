@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# 🌿 Urban Farms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Urban Farms** is a community-driven web platform designed to empower urban residents by transforming underutilized land into productive farming spaces. The application connects users for land-sharing, produce selling, and collaborative urban agriculture efforts — contributing to local sustainability and food security.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Urban Land Access** – Connects users with available small farming spaces in urban areas, facilitating land-sharing opportunities.
+- **Marketplace** – Enables buying and selling of urban farming produce.
+- **Social Feed** – Allows users to post updates, share insights, and engage with the community.
+- **Messaging System** – Facilitates direct communication between buyers, sellers, and fellow urban farmers.
+- **AI-Powered Location Matching** – Recommends buyers and sellers based on proximity and product availability.
+- **Real-Time Notifications** – Keeps users updated on messages, marketplace activity, and community interactions.
+- **Sustainability & Food Security** – Promotes local food production and strengthens urban food networks.
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React
+- **Styling**: CSS Modules
+- **State Management**: Context API or Redux
+- **Routing**: React Router
+- **API Integration**: Axios / Fetch API
+- **Backend**: Node.js 
+- **Database**: MongoDB / Firebase 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+1. **Clone the repository**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/Sahitha-chunduri/Urban-Farms.git
 
-### `npm run build`
+2. **Navigate to the project directory**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd Urban-Farms
+3. **Install dependencies**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+4. **Start the development server**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   
+The application will run on http://localhost:3000.
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Urban-Farms/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Application pages (Marketplace, Feed, etc.)
+│   ├── assets/            # Images, logos, etc.
+│   ├── App.js             # Main app component
+│   ├── index.js           # Entry point
+├── package.json
+├── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## Learn More
+## 📄 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
